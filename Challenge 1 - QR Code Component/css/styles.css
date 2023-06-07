@@ -1,0 +1,78 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    background-color: hsl(212, 45%, 89%);
+    margin: 0;
+    padding-top: 9.3625rem;
+}
+img{
+    width: 16.875rem;
+    margin: 0.9375rem;
+    border-radius: 0.625rem;
+}
+h2{
+    width: 16.25rem;
+    margin: 0.625rem auto;
+    font-size: 1.35rem;
+}
+.scan{
+    font-size: 0.9375rem;
+    color: hsl(220, 15%, 55%);
+    width: 16.25rem;
+    margin: auto;
+    padding: 0.625rem 0 2.5rem 0;
+}
+.container1{
+    background-color: hsl(0, 0%, 100%);
+    width: 18.75rem;
+    border-radius: 1.125rem;
+    margin: auto;
+}
+.attribution {
+    font-size: 0.6875rem;
+    text-align: center;
+    padding-top: 9.3625rem;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+@media(max-width: 375.2px){
+    body{
+        font-family: 'Outfit', sans-serif;
+        text-align: center;
+        background-color: hsl(212, 45%, 89%);
+        margin: 0;
+        padding-top: 5.20625rem;
+    }
+    img{
+        width: 16.875rem;
+        margin: 0.9375rem;
+        border-radius: 0.625rem;
+    }
+    h2{
+        width: 16.25rem;
+        margin: 0.625rem auto;
+        font-size: 1.35rem;
+    }
+    .scan{
+        font-size: 0.9375rem;
+        color: hsl(220, 15%, 55%);
+        width: 16.25rem;
+        margin: auto;
+        padding: 0.625rem 0 2.5rem 0;
+    }
+    .container1{
+        background-color: hsl(0, 0%, 100%);
+        width: 18.75rem;
+        border-radius: 1.125rem;
+        margin: auto;
+    }
+    .attribution {
+        font-size: 0.6875rem;
+        text-align: center;
+        padding-top: 5.20625rem;
+    }
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+}
