@@ -42,11 +42,11 @@ p {
 .card {
     outline: 2px solid black;
     height: 200px;
-    transition: .3s;
+    transition: .1s;
     border-radius: 10px;
 }
 .card:hover {
-    box-shadow: 0 0 25px rgba(33,33,33,.8);;
+    box-shadow: 0 0 25px rgba(33,33,33,.8);
 }
 .web-1 {
     content: url(./Challenge\ 1\ -\ QR\ Code\ Component/design/desktop-design.jpg);
