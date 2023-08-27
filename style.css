@@ -35,25 +35,15 @@ p {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 200px;
     gap: 50px;
 }
-.card {
+.grid-items {
     outline: 2px solid black;
-    height: 200px;
-    transition: .1s;
     border-radius: 10px;
 }
-.card:hover {
+.grid-items:hover {
+    transition: .1s;
     box-shadow: 0 0 25px rgba(33,33,33,.8);
-}
-.web-1 {
-    content: url(./Challenge\ 1\ -\ QR\ Code\ Component/design/desktop-design.jpg);
-}
-.web-2 {
-    content: url(./Challenge\ 2\ -\ Result\ Summary\ Component/design/desktop-design.jpg);
-}
-.web-3 {
-    content: url(./Challenge\ 3\ -\ Product\ Preview\ Card\ Component/design/desktop-design.jpg);
 }
