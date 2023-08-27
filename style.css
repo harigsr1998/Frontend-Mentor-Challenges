@@ -52,16 +52,19 @@ p {
     object-fit: cover;
     max-height: 100%;
     width: 100%;
+    border-radius: 10px;
 }
 .web-2 {
     content: url("./Challenge 2 - Result Summary Component/design/desktop-design.jpg");
     object-fit: cover;
     width: 100%;
     max-height: 100%;
+    border-radius: 10px;
 }
 .web-3 {
     content: url("./Challenge 3 - Product Preview Card Component/design/desktop-design.jpg");
     object-fit: cover;
     max-height: 100%;
     width: 100%;
+    border-radius: 10px;
 }
